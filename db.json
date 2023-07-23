@@ -1,9 +1,166 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "users": [
+    {
+      "id": 0,
+      "name": "匿名",
+      "imgUrl": "https://i.ibb.co/jwKW7LP/default-Avatar.png",
+      "email": "hedy@gmail.com"
+    }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "name": "台北行旅",
+      "imgUrl": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "address": "116 台北市文山區景中街30巷6號",
+      "tel": "02-2688-4528"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "storeId": 1,
+      "userId": 0,
+      "anonymous": true,
+      "createDate": 1689932224789,
+      "workHours": 0,
+      "hoildayYear": 2018,
+      "workDays": 0,
+      "otherworkDays": 0,
+      "advantages": [
+        {
+          "value": "店家環境佳",
+          "status": false
+        },
+        {
+          "value": "交通位置佳",
+          "status": false
+        },
+        {
+          "value": "職員友善",
+          "status": false
+        },
+        {
+          "value": "換宿制度完整",
+          "status": false
+        },
+        {
+          "value": "居住環境佳",
+          "status": false
+        },
+        {
+          "value": "免費供餐",
+          "status": false
+        },
+        {
+          "value": "補助餐費 / 零用金",
+          "status": false
+        },
+        {
+          "value": "考取證照",
+          "status": false
+        },
+        {
+          "value": "體驗課程",
+          "status": false
+        }
+      ],
+      "disAdvantages": [
+        {
+          "value": "店家環境差",
+          "status": false
+        },
+        {
+          "value": "交通位置不便",
+          "status": false
+        },
+        {
+          "value": "職員不友善",
+          "status": false
+        },
+        {
+          "value": "換宿制度不完整",
+          "status": false
+        },
+        {
+          "value": "居住環境差",
+          "status": false
+        },
+        {
+          "value": "換宿狀況與描述不符",
+          "status": false
+        },
+        {
+          "value": "工時過長",
+          "status": false
+        },
+        {
+          "value": "性騷擾",
+          "status": false
+        }
+      ],
+      "score": 3,
+      "description": "還不錯",
+      "advantageTotal": 0,
+      "replys": [
+        {
+          "content": "1",
+          "userId": "117561142045312108883",
+          "createDate": 1689525950303,
+          "commentId": 1,
+          "id": 20
+        },
+        {
+          "content": "2",
+          "userId": "117561142045312108883",
+          "createDate": 1689525951600,
+          "commentId": 1,
+          "id": 21
+        },
+        {
+          "content": "3",
+          "userId": "117561142045312108883",
+          "createDate": 1689525952739,
+          "commentId": 1,
+          "id": 22
+        },
+        {
+          "content": "4",
+          "userId": "117561142045312108883",
+          "createDate": 1689525954105,
+          "commentId": 1,
+          "id": 23
+        },
+        {
+          "content": "5",
+          "userId": "117561142045312108883",
+          "createDate": 1689525956384,
+          "commentId": 1,
+          "id": 24
+        }
+      ],
+      "user": {
+        "id": "117561142045312108883",
+        "name": "Hedy Du",
+        "imgUrl": "https://lh3.googleusercontent.com/a/AAcHTtcIQTAznyPzFIsi6NhOKCy87WTciE-I-ck609LMewtjTsY=s96-c",
+        "email": "duej12345@gmail.com"
+      },
+      "store": {
+        "id": 1,
+        "name": "台北行旅01",
+        "imgUrl": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "address": "116 台北市文山區景中街30巷6號",
+        "tel": "02-2688-4528"
+      }
+    }
+  ],
+  "replys": [
+    {
+      "content": "感謝分享",
+      "userId": 0,
+      "createDate": 1689490291973,
+      "commentId": 1,
+      "id": 1
+    }
+  ]
+}
