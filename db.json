@@ -14,6 +14,13 @@
       "imgUrl": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
       "address": "116 台北市文山區景中街30巷6號",
       "tel": "02-2688-4528"
+    },
+    {
+      "id": 2,
+      "name": "好居旅店",
+      "imgUrl": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "address": "203 基隆市中山區中和路200巷128號",
+      "tel": "02-2423-4448"
     }
   ],
   "comments": [
